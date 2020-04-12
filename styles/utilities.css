@@ -1,0 +1,68 @@
+/*Paddings*/
+/*Small - 1X*/
+.s-pad-left {
+    padding-left: 1rem;
+}
+
+.s-pad-right {
+    padding-right: 1rem;
+}
+
+.s-pad-top {
+    padding-top: 1rem;
+}
+
+.s-pad-bottom {
+    padding-bottom: 1rem;
+}
+
+/*Medium - 1X*/
+.m-pad-left {
+    padding-left: 2rem;
+}
+
+.m-pad-right {
+    padding-right: 2rem;
+}
+
+.m-pad-top {
+    padding-top: 2rem;
+}
+
+.m-pad-bottom {
+    padding-bottom: 2rem;
+}
+
+/*Large - 3X*/
+.l-pad-left {
+    padding-left: 3rem;
+}
+
+.l-pad-right {
+    padding-right: 3rem;
+}
+
+.l-pad-top {
+    padding-top: 3rem;
+}
+
+.l-pad-bottom {
+    padding-bottom: 3rem;
+}
+
+/*ExtraLarge - 4X*/
+.xl-pad-left {
+    padding-left: 4rem;
+}
+
+.xl-pad-right {
+    padding-right: 4rem;
+}
+
+.xl-pad-top {
+    padding-top: 4rem;
+}
+
+.xl-pad-bottom {
+    padding-bottom: 4rem;
+}

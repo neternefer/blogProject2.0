@@ -3,148 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cirith Ungol Blog</title>
+    <title>Sarati</title>
     <link rel="stylesheet" href="./styles/style.css">
     <script src="https://kit.fontawesome.com/99a657193d.js" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
 </head>
 <body>
-    <header>
-        <nav id="menu-top-wrapper">
-            <div id="menu-top">
-                <a href="index.html">
-                    <h1 id="logo" class="logo">CirithU</h1>
+    <div class="grid">
+        <header>
+            <nav id="menu-top" class="menu-top">
+                <a href="index.html" class="m-pad-left">
+                    <h1>Sarati</h1>
                 </a>
-                <a href="#" onClick="showSideMenu()" class="toggle bar">
+                <a href="#" onClick="showSideMenu()" class="toggle bar m-pad-right">
                     <i class="fas fa-bars"></i>
                 </a>
-            </div>
-        </nav>
-    </header>
-    <nav id="menu-side" onClick="hideSideMenu()" class="menu-side">
-        <a href="#" class="toggle chev">
-            <i class="fas fa-chevron-right"></i>
-        </a>
-        <ul>
-            <li>
-                <a href="./static/categories.html">Categories</a>
-            </li>
-            <li>
-                <a href="./static/authors.html">Authors</a>
-            </li>
-            <li>
-                <a href="./static/contact.html">Contact</a>
-            </li>     
-        </ul>
-        <div class="menu-social">
-            <ul class="social-links">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
-        </div> 
-    </nav>
-            
-        
-    <main class="index">
-        <article class="fantasy">
-            <h3>FANTASY</h3>
-            <h2>Light Fantastic, Chocolate Dark</h2>
-            <p class="intro">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-            </p>
-            <a href="./static/post.html">
-                <button type="button">ENTER</button>
-            </a>
-        </article>
-        <article class="gaming">
-            <h3>GAMING</h3>
-            <h2>Dailies Burnout and the Meaning of Life</h2>
-            <p class="intro">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-            </p>
-            <a href="./static/post.html">
-                <button type="button">ENTER</button>
-            </a>
-        </article>
-        <article class="fantasy">
-            <h3>THOUGHTS</h3>
-            <h2>Taking Over the World - DIY Edition</h2>
-            <p class="intro">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-            </p>
-            <a href="./static/post.html">
-                <button type="button">ENTER</button>
-            </a>
-        </article>
-        <article class="travel">
-            <h3>TRAVEL</h3>
-            <h2>There And Back Again</h2>
-            <p class="intro">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-            </p>
-            <a href="./static/post.html">
-                <button type="button">ENTER</button>
-            </a>
-        </article>
-        <article class="archaeology">
-            <h3>THOUGHTS</h3>
-            <h2>Questioning Life Choices</h2>
-            <p class="intro">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-            </p>
-            <a href="./static/post.html">
-                <button type="button">ENTER</button>
-            </a>
-        </article>
-    </main>
-    <footer>
-        <h1 class="logo">CirithU</h1>
-        <div class="menu-bottom">
-            <nav class="site">
-                <ul class="site-links">
-                    <li>
-                        <a href="index.html">
-                            <h3 class="logo">Home</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./static/categories.html">
-                            <h3 class="logo">Categories</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./static/authors.html">
-                            <h3 class="logo">Authors</h3>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./static/contact.html">
-                            <h3 class="logo">Contact</h3>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <nav class="social">
-                <ul class="social-links">
-                    <li><i class="fab fa-facebook-f"></i></li>
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
-                    <li><i class="fab fa-linkedin-in"></i></li>
-                </ul>
             </nav>
-        </div>
-    </footer>
+        </header>
+        <nav id="menu-side" onClick="hideSideMenu()" class="menu-side xl-pad-top offwhite">
+            <a href="#" class="toggle chev">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            <ul>
+                <li class="menu-side-element">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="menu-side-element">
+                    <a href="./static/categories.html">Categories</a>
+                </li>
+                <li class="menu-side-element">
+                    <a href="./static/authors.html">About</a>
+                </li>
+                <li class="menu-side-element">
+                    <a href="./static/contact.html">Contact</a>
+                </li>     
+            </ul>
+            <div>
+                <ul class="social-links upper">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div> 
+        </nav>    
+        <main>
+            <article class="fantasy card">
+                <h3 title="category name">FANTASY</h3>
+                <h2>Light Fantastic, Chocolate Dark</h2>
+                <p class="intro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                </p>
+                <a href="./static/post.html">
+                    <button type="button">READ</button>
+                </a>
+            </article>
+            <article class="gaming card">
+                <h3 title="category name">GAMING</h3>
+                <h2>Dailies Burnout and the Meaning of Life</h2>
+                <p class="intro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                </p>
+                <a href="./static/post.html">
+                    <button type="button">READ</button>
+                </a>
+            </article>
+            <article class="fantasy card">
+                <h3 title="category name">THOUGHTS</h3>
+                <h2>Taking Over the World - DIY Edition</h2>
+                <p class="intro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                </p>
+                <a href="./static/post.html">
+                    <button type="button">READ</button>
+                </a>
+            </article>
+            <article class="travel card">
+                <h3 title="category name">TRAVEL</h3>
+                <h2>There And Back Again</h2>
+                <p class="intro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                </p>
+                <a href="./static/post.html">
+                    <button type="button">READ</button>
+                </a>
+            </article>
+            <article class="archaeology card">
+                <h3 title="category name">THOUGHTS</h3>
+                <h2>Questioning Life Choices</h2>
+                <p class="intro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                </p>
+                <a href="./static/post.html">
+                    <button type="button">READ</button>
+                </a>
+            </article>
+        </main>
+        <footer>
+            <h1 class="logo">Sarati</h1>
+            <div class="menu-bottom">
+                <nav class="site">
+                    <ul class="site-links">
+                        <li>
+                            <a href="index.html">
+                                <h3 class="logo">Home</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./static/categories.html">
+                                <h3 class="logo">Categories</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./static/authors.html">
+                                <h3 class="logo">About</h3>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./static/contact.html">
+                                <h3 class="logo">Contact</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="social-links lower">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
