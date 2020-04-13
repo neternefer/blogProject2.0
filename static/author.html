@@ -3,129 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Judy Morens</title>
+    <title>Max Morens</title>
     <link rel="stylesheet" href="../styles/author.css">
     <script src="https://kit.fontawesome.com/99a657193d.js" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <div class="menu-regular">
-                <a href="index.html">
-                    <h1 class="logo">CirithU</h1>
+    <div class="grid">
+        <header>
+            <nav id="menu-top" class="menu-top">
+                <a href="../index.html" class="m-pad-left">
+                    <h1>Sarati</h1>
                 </a>
-                <a href="authors.html" class="toggle">
-                    <i class="fas fa-chevron-left"></i>
+                <a href="#" onClick="showSideMenu()" class="toggle bar m-pad-right">
+                    <i class="fas fa-bars"></i>
                 </a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="autor">
-            <div class="post-intro">
-                <img src="" alt="Post author mini portrait" class="author-thumb">
-                <h3>Judy Morens</h3>
-            </div>
-            <div class="post-author">
-                <p class="post-bio"></p>
-                <div class="post-social">
-                    <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
-        </section>
-        <section class="author-posts">
-            <article class="fantasy">
-                <h3>FANTASY</h3>
-                <h2>Light Fantastic, Chocolate Dark</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                    Esse laudantium harum possimus, rerum aliquam qui?
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">ENTER</button>
-                </a>
-            </article>
-            <article class="gaming">
-                <h3>GAMING</h3>
-                <h2>Dailies Burnout and the Meaning of Life</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                    Esse laudantium harum possimus, rerum aliquam qui?
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">ENTER</button>
-                </a>
-            </article>
-            <article class="fantasy">
-                <h3>FANTASY</h3>
-                <h2>Taking Over the World - DIY Edition</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                    Esse laudantium harum possimus, rerum aliquam qui?
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">ENTER</button>
-                </a>
-            </article>
-            <article class="archaeology">
-                <h3>ARCHAEOLOGY</h3>
-                <h2>Questioning Life Choices</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                    Esse laudantium harum possimus, rerum aliquam qui?
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">ENTER</button>
-                </a>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <h1 class="logo">CirithU</h1>
-        <div class="menu-bottom">
-            <nav class="site">
-                <ul class="site-links">
+            </nav>
+            <nav class="menu-large">
+                <ul>
                     <li>
-                        <a href="index.html">
-                            <h3 class="logo">Home</h3>
-                        </a>
+                        <a href="../index.html">Home</a>
                     </li>
                     <li>
-                        <a href="./static/categories.html">
-                            <h3 class="logo">Categories</h3>
-                        </a>
+                        <a href="categories.html">Categories</a>
                     </li>
                     <li>
-                        <a href="./static/authors.html">
-                            <h3 class="logo">Authors</h3>
-                        </a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="./static/contact.html">
-                            <h3 class="logo">Contact</h3>
-                        </a>
-                    </li>
+                        <a href="contact.html">Contact</a>
+                    </li>     
                 </ul>
-            </div>
-            <nav class="social">
-                <ul class="social-links">
+            </nav>
+        </header>
+        <nav id="menu-side" onClick="hideSideMenu()" class="menu-side xl-pad-top offwhite">
+            <a href="#" class="toggle chev">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            <ul>
+                <li class="menu-side-element">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="menu-side-element">
+                    <a href="categories.html">Categories</a>
+                </li>
+                <li class="menu-side-element">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="menu-side-element">
+                    <a href="contact.html">Contact</a>
+                </li>     
+            </ul>
+            <div>
+                <ul class="social-links upper">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div> 
+        </nav>   
+        <main>
+            <aside class="post-author aside-author card aside">
+                <img src="../assets/author_photo.jpg" alt="Post author mini portrait" 
+                class="author-thumb">
+                <a href="" class="author-name">Max Morens</a>
+                <p class="author-company color">Tiento Magazine</p>
+                <p class="post-bio">Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Reprehenderit asperiores.
+                </p>
+                <ul class="social-links color">
                     <li><i class="fab fa-facebook-f"></i></li>
                     <li><i class="fab fa-twitter"></i></li>
                     <li><i class="fab fa-instagram"></i></li>
-                    <li><i class="fab fa-linkedin-in"></i></li>
                 </ul>
-                <small class="info">&copy;2020 Bibendum Inc</small>
-            </nav>
-        </div>
-    </footer>
+            </aside>
+            <div class="cards">
+                <article class="books landing card">
+                    <h3 title="category name">BOOKS</h3>
+                    <h2>Light Fantastic, Chocolate Dark</h2>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                    </p>
+                    <a href="post.html">
+                        <button type="button">READ</button>
+                    </a>
+                </article>
+                <article class="books landing card">
+                    <h3 title="category name">BOOKS</h3>
+                    <h2>There And Back Again</h2>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                    </p>
+                    <a href="post.html">
+                        <button type="button">READ</button>
+                    </a>
+                </article>
+                <article class="thoughts landing card">
+                    <h3 title="category name">THOUGHTS</h3>
+                    <h2>Questioning Life Choices</h2>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                    </p>
+                    <a href="post.html">
+                        <button type="button">READ</button>
+                    </a>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <h1>Sarati</h1>
+            <ul class="social-links lower">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></li>
+            </ul>
+        </footer>   
+    </div>
 </body>
 </html>

@@ -2,12 +2,17 @@
 @import "./resets/reset.local.css";
 @import "./utilities.css";
 
+html{
+    height: 100vh;
+}
+
 body {
     font-family: "Calibri", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
-    color: #fff; /*Primary*/
+    color: #fff; 
+    height: 100%;
 }
 
 .grid {
@@ -16,16 +21,17 @@ body {
     grid-template-rows: 6rem 1fr 10rem;
     grid-template-areas: 
         "h"
-        "m"
+        "c"
         "f";
+    height: 100%;
 }
 
 header {
     grid-area: h;
 }
 
-main {
-    grid-area: m;
+.cards {
+    grid-area: c;
     margin-top: -6rem;
 }
 
@@ -38,17 +44,8 @@ footer {
     margin-top: 1rem;
 }
 
-/*Colors*/
 .offwhite {
-    color: #ccc; /*Accent*/
-}
-
-.black {
-    color: #000; /*Secondary*/
-}
-
-.author-color {
-    color: darkolivegreen; /*Accent*/
+    color: #ccc; 
 }
 
 .offwhite a:hover {
@@ -146,8 +143,13 @@ button {
     padding: 1rem 0;
 }
 
-nav.site {
+.aside-color {
     display: none;
+}
+
+.aside blockquote,
+.aside cite {
+    text-align: left;
 }
 
 .upper {
@@ -155,26 +157,104 @@ nav.site {
 }
 
 /*Articles' backgrounds*/
-.card:first-child {
+.landing:first-of-type {
     background-image: url("../assets/stone_hut.jpg");
 }
 
-.card:nth-child(2) {
+.landing:nth-of-type(2) {
     background-image: url("../assets/blue_orange.jpg");
     background-position: center;
 }
 
-.card:nth-child(3) {
+.landing:nth-of-type(3) {
     background-image: url("../assets/full_moon_closeup.jpg");
 }
 
-.card:nth-child(4) {
+.landing:nth-of-type(4) {
     background-image: url("../assets/purple_smoke.jpg");
 }
 
-.card:nth-child(5) {
+.landing:nth-of-type(5) {
     background-image: url("../assets/arrow_sign_01.jpg");
     background-position: center;
+}
+
+@media (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(320px, 1fr));
+        grid-template-areas: 
+        "a c c";
+    }
+
+    .menu-large ul {
+        display: flex;
+        position: absolute;
+        top: 2rem;
+        left: calc(100vw / 3);
+        font-size: 1.5rem;
+        z-index: 2;
+    }
+    
+    .menu-large ul li {
+        padding: 0 1rem;
+    }
+
+    .menu-side-element,
+    .social-links {
+        font-size: 1.5rem;
+    }
+
+    footer .social-links {
+        padding: 0 .5rem 0 1.5rem;
+    }
+
+    .aside-color {
+        background-color: rgb(143, 164, 188);
+    }
+
+    .aside {
+        grid-area: a;
+        margin-top: -6rem;
+        padding: 6rem 2rem;
+        display: block;
+    }
+
+    .aside-quote,
+    .aside-category {
+        margin: calc(100vh / 2) 0;
+        font-size: 1.75rem;
+        width: calc((100vw / 3) - 4rem);
+        position: fixed;
+    }
+    cite {
+        font-size: 1.25rem;
+    }
+
+    .card {
+        padding: calc(100vh / 3) 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+
 }
 
 

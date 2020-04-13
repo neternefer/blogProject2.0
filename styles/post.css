@@ -1,55 +1,63 @@
 @import "../styles/style.css";
 
+.post main {
+    color: #000;
+    padding: 3rem 2rem 1rem 2rem;
+}
 
+.post header {
+    background-image: url("../assets/stone_hut.jpg");
+}
+
+.color {
+    color: darkolivegreen;
+    padding-top: 0;
+}
 
 .author-thumb {
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     padding: 1rem;
 }
 
-.post-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center ;
-}
-
-.post-intro a {
-    color: #000;
-}
-
-
-
-.post-text {
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-
-
-
-
-
-.post-intro .social-links li {
-    color: darkolivegreen;
-    padding: .5rem;
+.author-company {
+    font-style: italic;
 }
 
 .author-name {
     font-weight: bold;
-}
-
-.color-p {
-    font-style: italic;
-    color: darkolivegreen;
-    padding: 0;
-    margin: 0;
+    font-size: 1.25rem;
 }
 
 .post-author {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 2rem;
 }
+
+.post footer {
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: darkolivegreen;
+    color: #fff;
+}
+
+.social-links.color {
+    width: 6rem;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        padding: 6rem 2rem;
+    }
+    .post main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 

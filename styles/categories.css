@@ -1,0 +1,29 @@
+@import "../styles/style.css";
+
+.aside-filter{
+    background-image: url("../assets/road_sign.jpg");
+    background-position: center;
+    margin-top: -6rem;
+}
+
+.category li{
+    padding-top: 1rem;
+}
+
+.cards {
+    margin-top: 0;
+}
+
+@media (min-width: 1024px) {
+    .cards {
+        display: grid;
+        margin-top: -6rem;
+    }
+
+    .aside-filter.card {
+        padding-top: 0;
+    }
+
+
+}
+

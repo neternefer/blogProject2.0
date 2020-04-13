@@ -1,0 +1,7 @@
+@import "../styles/style.css";
+@import "../styles/post.css";
+
+.aside-author {
+    background-color: rgb(226, 169, 100);
+    margin-top: -6rem;
+}

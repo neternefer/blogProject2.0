@@ -19,6 +19,22 @@
                     <i class="fas fa-bars"></i>
                 </a>
             </nav>
+            <nav class="menu-large">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./static/categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="./static/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./static/contact.html">Contact</a>
+                    </li>     
+                </ul>
+            </nav>
         </header>
         <nav id="menu-side" onClick="hideSideMenu()" class="menu-side xl-pad-top offwhite">
             <a href="#" class="toggle chev">
@@ -32,7 +48,7 @@
                     <a href="./static/categories.html">Categories</a>
                 </li>
                 <li class="menu-side-element">
-                    <a href="./static/authors.html">About</a>
+                    <a href="./static/about.html">About</a>
                 </li>
                 <li class="menu-side-element">
                     <a href="./static/contact.html">Contact</a>
@@ -48,103 +64,82 @@
             </div> 
         </nav>    
         <main>
-            <article class="fantasy card">
-                <h3 title="category name">FANTASY</h3>
-                <h2>Light Fantastic, Chocolate Dark</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">READ</button>
-                </a>
-            </article>
-            <article class="gaming card">
-                <h3 title="category name">GAMING</h3>
-                <h2>Dailies Burnout and the Meaning of Life</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">READ</button>
-                </a>
-            </article>
-            <article class="fantasy card">
-                <h3 title="category name">THOUGHTS</h3>
-                <h2>Taking Over the World - DIY Edition</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">READ</button>
-                </a>
-            </article>
-            <article class="travel card">
-                <h3 title="category name">TRAVEL</h3>
-                <h2>There And Back Again</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">READ</button>
-                </a>
-            </article>
-            <article class="archaeology card">
-                <h3 title="category name">THOUGHTS</h3>
-                <h2>Questioning Life Choices</h2>
-                <p class="intro">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                    quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
-                </p>
-                <a href="./static/post.html">
-                    <button type="button">READ</button>
-                </a>
-            </article>
+            <aside class="aside aside-color">
+                <div class="aside-quote">
+                    <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</blockquote>
+                    <cite>Lorem ipsum</cite>
+                </div>
+            </aside>
+            <div class="cards">
+                <article class="books landing card">
+                    <h3 title="category name">BOOKS</h3>
+                    <h2>Light Fantastic, Chocolate Dark</h2>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                    </p>
+                    <a href="./static/post.html">
+                        <button type="button">READ</button>
+                    </a>
+                </article>
+                <article class="games landing card">
+                    <h3 title="category name">GAMES</h3>
+                    <h2>Dailies Burnout and the Meaning of Life</h2>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                    </p>
+                    <a href="./static/post.html">
+                        <button type="button">READ</button>
+                    </a>
+                </article>
+                <article class="thoughts landing card">
+                    <h3 title="category name">THOUGHTS</h3>
+                    <h2>Taking Over the World - DIY Edition</h2>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                    </p>
+                    <a href="./static/post.html">
+                        <button type="button">READ</button>
+                    </a>
+                </article>
+                <article class="books landing card">
+                    <h3 title="category name">BOOKS</h3>
+                    <h2>There And Back Again</h2>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                    </p>
+                    <a href="./static/post.html">
+                        <button type="button">READ</button>
+                    </a>
+                </article>
+                <article class="thoughts landing card">
+                    <h3 title="category name">THOUGHTS</h3>
+                    <h2>Questioning Life Choices</h2>
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                    </p>
+                    <a href="./static/post.html">
+                        <button type="button">READ</button>
+                    </a>
+                </article>
         </main>
         <footer>
-            <h1 class="logo">Sarati</h1>
-            <div class="menu-bottom">
-                <nav class="site">
-                    <ul class="site-links">
-                        <li>
-                            <a href="index.html">
-                                <h3 class="logo">Home</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./static/categories.html">
-                                <h3 class="logo">Categories</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./static/authors.html">
-                                <h3 class="logo">About</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./static/contact.html">
-                                <h3 class="logo">Contact</h3>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <ul class="social-links lower">
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-instagram"></i></li>
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                    </ul>
-                </div>
-            </div>
+            <h1>Sarati</h1>
+            <ul class="social-links lower">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></li>
+            </ul>
         </footer>
     </div>
 </body>

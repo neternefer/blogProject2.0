@@ -1,0 +1,30 @@
+@import "../styles/style.css";
+
+.form {
+    background-image: url("../assets/milky_way.jpg");
+}
+
+input {
+    width: 60%;  
+    border: none; 
+}
+
+label, input {
+    display: block;
+    margin: .5rem auto;
+}
+
+button {
+    margin-top: 1rem;
+    border: 2px solid #fff;
+}
+
+@media (min-width: 768px) {
+    .form.card {
+        padding: calc(100vh / 3) 4rem;
+    }
+
+    textarea {
+        width: 60%;
+    }
+}

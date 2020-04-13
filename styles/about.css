@@ -1,0 +1,35 @@
+@import "../styles/style.css";
+
+.about {
+    background-image: url("../assets/ferns.jpg");
+}
+
+blockquote, cite{
+    text-align: right;
+}
+
+cite {
+    display: block;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .about.card {
+        padding: calc(100vh / 3) 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about p {
+        font-size: 2rem;
+    }
+
+    .about blockquote,
+    .about cite {
+        font-size: 1.75rem;
+    }
+
+}
