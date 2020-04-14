@@ -164,24 +164,24 @@ button {
 
 /*Articles' backgrounds*/
 .landing:first-of-type {
-    background-image: url("../assets/stone_hut.jpg");
+    background-image: url("../assets/stone_hut_by_linus_sandvide.jpg");
 }
 
 .landing:nth-of-type(2) {
-    background-image: url("../assets/blue_orange.jpg");
+    background-image: url("../assets/blue_orange_by_davisco.jpg");
     background-position: center;
 }
 
 .landing:nth-of-type(3) {
-    background-image: url("../assets/full_moon_closeup.jpg");
+    background-image: url("../assets/full_moon_closeup_by_neven_krcmarek.jpg");
 }
 
 .landing:nth-of-type(4) {
-    background-image: url("../assets/purple_smoke.jpg");
+    background-image: url("../assets/purple_smoke_by_camille_couvez.jpg");
 }
 
 .landing:nth-of-type(5) {
-    background-image: url("../assets/arrow_sign_01.jpg");
+    background-image: url("../assets/arrow_sign_by_lance_grandahl.jpg");
     background-position: center;
 }
 
