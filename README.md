@@ -1,4 +1,4 @@
-# SushiMaster - memory game
+# Blog Website
 
 ## Table of contents
 * [General info](#general-info)
