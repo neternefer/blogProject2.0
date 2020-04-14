@@ -1,11 +1,11 @@
-# SushiMaster - memory game
+# Blog Website
 
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 
 ## General info
-Blog website with a dash of JS
+Blog website - Flex + Grid, with a dash of JS
 
 ## Screenshots
 Mobile             |  Desktop
