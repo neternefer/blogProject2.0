@@ -5,3 +5,22 @@
     background-color: rgb(226, 169, 100);
     margin-top: -6rem;
 }
+
+.cards {
+    margin-top: 0;
+}
+
+@media (min-width: 1024px) {
+    .cards {
+        margin-top: -6rem;
+    }
+
+    .social-links.color {
+        width: 10rem;
+    }
+
+    .author-thumb {
+        width: 8rem;
+        height: 8rem;
+    }
+}

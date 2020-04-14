@@ -38,6 +38,16 @@
     padding-bottom: 2rem;
 }
 
+figure {
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 .post footer {
     padding: 1rem 2rem;
     text-align: center;
@@ -47,15 +57,26 @@
 
 .social-links.color {
     width: 6rem;
+    padding-left: 0;
 }
 
 @media (min-width: 1024px) {
     .card {
         padding: 6rem 2rem;
     }
+
     .post main {
         display: flex;
         flex-direction: column;
+    }
+
+    .social-links.color {
+        width: 10rem;
+    }
+
+    .author-thumb {
+        width: 8rem;
+        height: 8rem;
     }
 }
 

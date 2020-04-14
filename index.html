@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,14 +11,16 @@
 <body>
     <div class="grid">
         <header>
+            <!--Top menu - always visible-->
             <nav id="menu-top" class="menu-top">
-                <a href="index.html" class="m-pad-left">
+                <a href="index.html" class="pad-left">
                     <h1>Sarati</h1>
                 </a>
-                <a href="#" onClick="showSideMenu()" class="toggle bar m-pad-right">
+                <a href="#" onClick="showSideMenu()" class="toggle pad-right">
                     <i class="fas fa-bars"></i>
                 </a>
             </nav>
+            <!--Top menu - for large screens-->
             <nav class="menu-large">
                 <ul>
                     <li>
@@ -32,11 +34,12 @@
                     </li>
                     <li>
                         <a href="./static/contact.html">Contact</a>
-                    </li>     
+                    </li>
                 </ul>
             </nav>
         </header>
-        <nav id="menu-side" onClick="hideSideMenu()" class="menu-side xl-pad-top offwhite">
+        <!--Side menu-->
+        <nav id="menu-side" onClick="hideSideMenu()" class="menu-side pad-top offwhite">
             <a href="#" class="toggle chev">
                 <i class="fas fa-chevron-right"></i>
             </a>
@@ -52,32 +55,34 @@
                 </li>
                 <li class="menu-side-element">
                     <a href="./static/contact.html">Contact</a>
-                </li>     
+                </li>
             </ul>
-            <div>
+            <div class="side-social">
                 <ul class="social-links upper">
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
-            </div> 
-        </nav>    
+            </div>
+        </nav>
         <main>
+            <!--Side panel with quote-->
             <aside class="aside aside-color">
                 <div class="aside-quote">
                     <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</blockquote>
                     <cite>Lorem ipsum</cite>
                 </div>
             </aside>
+            <!--Blog post cards-->
             <div class="cards">
                 <article class="books landing card">
                     <h3 title="category name">BOOKS</h3>
                     <h2>Light Fantastic, Chocolate Dark</h2>
                     <p class="intro">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa.
                     </p>
                     <a href="./static/post.html">
                         <button type="button">READ</button>
@@ -87,9 +92,9 @@
                     <h3 title="category name">GAMES</h3>
                     <h2>Dailies Burnout and the Meaning of Life</h2>
                     <p class="intro">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa.
                     </p>
                     <a href="./static/post.html">
                         <button type="button">READ</button>
@@ -99,9 +104,9 @@
                     <h3 title="category name">THOUGHTS</h3>
                     <h2>Taking Over the World - DIY Edition</h2>
                     <p class="intro">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa.
                     </p>
                     <a href="./static/post.html">
                         <button type="button">READ</button>
@@ -111,9 +116,9 @@
                     <h3 title="category name">BOOKS</h3>
                     <h2>There And Back Again</h2>
                     <p class="intro">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa.
                     </p>
                     <a href="./static/post.html">
                         <button type="button">READ</button>
@@ -123,9 +128,9 @@
                     <h3 title="category name">THOUGHTS</h3>
                     <h2>Questioning Life Choices</h2>
                     <p class="intro">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Saepe nulla voluptatem inventore impedit, odit ad magnam 
-                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe nulla voluptatem inventore impedit, odit ad magnam
+                        quisquam necessitatibus ducimus doloremque, cumque earum ipsa.
                     </p>
                     <a href="./static/post.html">
                         <button type="button">READ</button>

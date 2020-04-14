@@ -7,7 +7,12 @@
 }
 
 .category li{
-    padding-top: 1rem;
+    margin: 1rem;
+}
+
+.aside-category h3,
+.aside-category h2 {
+    display: inline;
 }
 
 .cards {

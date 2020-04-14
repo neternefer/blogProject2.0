@@ -1,6 +1,5 @@
 @import "./resets/normalize.css";
 @import "./resets/reset.local.css";
-@import "./utilities.css";
 
 html{
     height: 100vh;
@@ -11,7 +10,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
-    color: #fff; 
+    color: #fff;
     height: 100%;
 }
 
@@ -19,7 +18,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 6rem 1fr 10rem;
-    grid-template-areas: 
+    grid-template-areas:
         "h"
         "c"
         "f";
@@ -45,7 +44,7 @@ footer {
 }
 
 .offwhite {
-    color: #ccc; 
+    color: #ccc;
 }
 
 .offwhite a:hover {
@@ -73,8 +72,20 @@ p {
     padding: 1rem 0;
 }
 
+.pad-left {
+    padding-left: 2rem;
+}
+
+.pad-right {
+    padding-right: 2rem;
+}
+
+.pad-top {
+    padding-top: 4rem
+}
+
 .menu-top {
-    height: 6rem;    
+    height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,9 +118,7 @@ p {
 .toggle {
     font-size: 2rem;
 }
-/*Custom properties to line up
-  with hamburger icon
-*/
+
 .chev {
     position: absolute;
     top: 1.7rem;
@@ -124,9 +133,6 @@ button {
 
 .card {
     background-size: cover;
-}
-
-.card {
     text-align: center;
     padding: 6rem 2rem;
 }
@@ -140,7 +146,7 @@ button {
     font-size: 1rem;
     justify-content: space-between;
     width: 12rem;
-    padding: 1rem 0;
+    padding: 1rem 0 0 1.5rem;
 }
 
 .aside-color {
@@ -183,7 +189,7 @@ button {
     main {
         display: grid;
         grid-template-columns: repeat(3, minmax(320px, 1fr));
-        grid-template-areas: 
+        grid-template-areas:
         "a c c";
     }
 
@@ -195,7 +201,7 @@ button {
         font-size: 1.5rem;
         z-index: 2;
     }
-    
+
     .menu-large ul li {
         padding: 0 1rem;
     }
@@ -203,10 +209,6 @@ button {
     .menu-side-element,
     .social-links {
         font-size: 1.5rem;
-    }
-
-    footer .social-links {
-        padding: 0 .5rem 0 1.5rem;
     }
 
     .aside-color {

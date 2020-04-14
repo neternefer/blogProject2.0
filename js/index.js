@@ -2,15 +2,15 @@ document.addEventListener("DOMContentLoaded", () => {
     showSideMenu = () => {
         document.getElementById("menu-side").style.width = "320px";
     }
-    
+
     hideSideMenu = () => {
         document.getElementById("menu-side").style.width = "0";
     }
-    
-    let prevScrollpos = window.pageYOffset;
+
+    let prevPos = window.pageYOffset;
     window.onscroll = () => {
-        let currentScrollPos = window.pageYOffset;
-        if (prevScrollpos < currentScrollPos) {
+        let curPos = window.pageYOffset;
+        if (prevPos < curPos) {
          document.getElementById("menu-top").style.top = "-4rem";
         } else {
           document.getElementById("menu-top").style.top = "0";
@@ -28,13 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         })
     }
-    
+
     let triggers = document.querySelectorAll('.category li a');
     triggers.forEach((t) => {
         t.addEventListener('click', filter);
     })
-    
-    
+
+
 })
 
 
