@@ -5,7 +5,7 @@
 * [Screenshots](#screenshots)
 
 ## General info
-Blog website with a dash of JS
+Blog website - Flex + Grid, with a dash of JS
 
 ## Screenshots
 Mobile             |  Desktop
