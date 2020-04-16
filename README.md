@@ -10,5 +10,5 @@ Blog website - Flex + Grid, with a dash of JS
 ## Screenshots
 Mobile             |  Desktop
 :-------------------------:|:-------------------------:
-![Game in progress](./screenshots/screen1.png)  |  ![Finished game](./screenshots/screen2.png)
+![Mobile](./screenshots/screen1.png)  |  ![Desktop](./screenshots/screen2.png)
 
