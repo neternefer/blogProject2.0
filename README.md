@@ -9,6 +9,7 @@
 Blog website - Flex + Grid, with a dash of JavaScript
 
 ## Launch
+https://neternefer.github.io/blogProject2.0/
 
 ## Screenshots
 Mobile             |  Desktop
